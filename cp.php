@@ -625,8 +625,8 @@ if ($action == 'forum') {
 <td class="tablerow"><?php echo _TEXTSTAFFONLY ?></td>
 <td>
 <input type="radio" name="privatenew" value="" <?php echo $checked1c ?> /> <?php echo _EBF_ALL ?><br/>
-<input type="radio" name="privatenew" value="user" <?php echo $checked1b ?> /> <?php echo _EBF_MEMBERONLY ?><br/>
-<input type="radio" name="privatenew" value="staff" <?php echo $checked1a ?> /> <?php echo _EBF_STAFFONLY ?>
+<input type="radio" name="privatenew" value="staff" <?php echo $checked1a ?> /> <?php echo _EBF_STAFFONLY ?><br/>
+<input type="radio" name="privatenew" value="user" <?php echo $checked1b ?> /> <?php echo _EBF_MEMBERONLY ?>
 </td>
 </tr>
 

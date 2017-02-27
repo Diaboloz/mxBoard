@@ -132,8 +132,8 @@ if (empty($settingsubmit)) {
     $accessmode_select = ''
      . '<select name="eb_defstaff" size="1">'
      . '<option value="" ' . $eb_defstaffon3 . '>' . _EBF_ALL . '</option>'
-     . '<option value="user" ' . $eb_defstaffon2 . '>' . _EBF_MEMBERONLY . '</option>'
      . '<option value="staff" ' . $eb_defstaffon1 . '>' . _EBF_STAFFONLY . '</option>'
+     . '<option value="user" ' . $eb_defstaffon2 . '>' . _EBF_MEMBERONLY . '</option>'     
      . '</select>';
 
     /* Build CHECKBOX timeformat */
